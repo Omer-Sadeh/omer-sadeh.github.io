@@ -56,6 +56,8 @@ class Header extends Component {
             <br />
             My skills includes: 
             <Typing loop={true}>
+               <span><b>  </b></span>
+               <Typing.Backspace count={2} delay={100} />
                <span><b>Java</b></span>
                <Typing.Backspace count={5} delay={700} />
                <span><b>React</b></span>
