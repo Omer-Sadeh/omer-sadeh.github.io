@@ -51,8 +51,8 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline"><b>I'mצצ {name}</b></h1>
-            <h3>I'm a {city} based <span>{occupation}</span>. My skills includes:
+            <h1 className="responsive-headline"><b>I'm {name}</b></h1>
+            <h3>I'm a {city} based <span>{occupation}</span>. My skills includes: something? yes
             <br /></h3>
             <hr />
             <ul className="social">
