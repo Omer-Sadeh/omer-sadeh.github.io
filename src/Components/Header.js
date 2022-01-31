@@ -57,21 +57,21 @@ class Header extends Component {
             My skills includes: 
             <Typing loop={true}>
                <span><b>  </b></span>
-               <Typing.Backspace count={2} delay={100} />
+               <Typing.Backspace count={4} delay={100} />
                <span><b>Java</b></span>
-               <Typing.Backspace count={5} delay={700} />
-               <span><b>React</b></span>
-               <Typing.Backspace count={6} delay={700} />
-               <span><b>HTML</b></span>
-               <Typing.Backspace count={5} delay={700} />
-               <span><b>CSS</b></span>
-               <Typing.Backspace count={4} delay={700} />
-               <span><b>JavaScript</b></span>
-               <Typing.Backspace count={11} delay={700} />
-               <span><b>Python</b></span>
                <Typing.Backspace count={7} delay={700} />
+               <span><b>React</b></span>
+               <Typing.Backspace count={8} delay={700} />
+               <span><b>HTML</b></span>
+               <Typing.Backspace count={6} delay={700} />
+               <span><b>CSS</b></span>
+               <Typing.Backspace count={6} delay={700} />
+               <span><b>JavaScript</b></span>
+               <Typing.Backspace count={13} delay={700} />
+               <span><b>Python</b></span>
+               <Typing.Backspace count={9} delay={700} />
                <span><b>SQL</b></span>
-               <Typing.Backspace count={4} delay={700} />
+               <Typing.Backspace count={6} delay={700} />
             </Typing>
             </h3>
             <hr />
