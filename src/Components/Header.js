@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { BsFillArrowDownCircleFill } from 'react-icons/bs';
 import { MdMenu, MdMenuOpen } from 'react-icons/md';
 import ResponsiveMenu from 'react-responsive-navbar';
+import Typing from 'react-typing-animation';
 
 class Header extends Component {
   render() {
@@ -16,7 +17,6 @@ class Header extends Component {
     if(this.props.data){
       var name = this.props.data.name;
       var occupation= this.props.data.occupation;
-      var description= this.props.data.description;
       var city= this.props.data.address.city;
     }
 
@@ -52,12 +52,30 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline"><b>I'm {name}</b></h1>
-            <h3>I'm a {city} based <span>{occupation}</span>. My skills includes: something?
-            <br /></h3>
+            <h3>I'm a {city} based <span>{occupation}</span>
+            <br />
+            My skills includes: 
+            <Typing loop={true}>
+               <span><b>Java</b></span>
+               <Typing.Backspace count={5} delay={700} />
+               <span><b>React</b></span>
+               <Typing.Backspace count={6} delay={700} />
+               <span><b>HTML</b></span>
+               <Typing.Backspace count={5} delay={700} />
+               <span><b>CSS</b></span>
+               <Typing.Backspace count={4} delay={700} />
+               <span><b>JavaScript</b></span>
+               <Typing.Backspace count={11} delay={700} />
+               <span><b>Python</b></span>
+               <Typing.Backspace count={7} delay={700} />
+               <span><b>SQL</b></span>
+               <Typing.Backspace count={4} delay={700} />
+            </Typing>
+            </h3>
             <hr />
             <ul className="social">
-               <li key="github"><a href="https://github.com/Omer-Sadeh" target="_blank" rel="noopener"><FaGithub /></a></li>
-               <li key="linkedin"><a href="https://www.linkedin.com/in/omer-sadeh-237087191/" target="_blank" rel="noopener"><FaLinkedin /></a></li>
+               <li key="github"><a href="https://github.com/Omer-Sadeh" target="_blank" rel="noopener noreferrer"><FaGithub /></a></li>
+               <li key="linkedin"><a href="https://www.linkedin.com/in/omer-sadeh-237087191/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a></li>
             </ul>
          </div>
       </div>
