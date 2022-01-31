@@ -1,0 +1,112 @@
+{
+
+  "main": {
+    "name": "Omer Sadeh",
+    "occupation": "Software Developer",
+    "description": "I like to code Many things!",
+    "image": "profilepic.jpg",
+    "bio": "I'm a 26 years old developer, currently finishing my second year as a CS student at Reichman University (IDC). More decription. More description? Yes, more description. What? More decription. More description? Yes, more description. What? More decription. More description? Yes, more description. What? More decription. More description? Yes, more description. What? ",
+    "contactmessage": "Feel free to write me an email, and I'll get back to you as soon as possible!",
+    "email": "omer.sadeh@protonmail.com",
+    "phone": "050-991-1293",
+    "address": {
+      "street": "Haalumim 7",
+      "city": "Hertzliya",
+      "state": "Israel",
+      "zip": "4630804"
+    },
+    "website": "http://www.google.com",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/omer-sadeh-237087191/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/Omer-Sadeh",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+
+  "resume": {
+    "skillmessage": "Here is a short list of my programming skills:",
+    "education": [
+      {
+        "school": "Reichman University (IDC)",
+        "degree": "Bs.c in Computer Science",
+        "graduated": "October 2020 - July 2023",
+        "description": "Currently a second year student."
+      },
+      {
+        "school": "Misgav High School",
+        "degree": "Computers & Electronics Major",
+        "graduated": "Grdauated June 2014",
+        "description": "Majored in Computers & Electronics, participated & won in an international robotics competition."
+      }
+    ],
+    "work": [
+      {
+        "company": "miLab Research Lab, IDC",
+        "title": "Fullstack Developer",
+        "years": "August 2021 - Present",
+        "description": "Programming robots in python and java. Building web interface using HTML, JS, CSS and React. Working in collaboration with CS, Psychology and Communications Students in Human-Robot-Interaction researches. Role requiring fast self learning and strong technical capabilities."
+      },
+      {
+        "company": "8200, IDF",
+        "title": "Advanced Communications Systems technitian",
+        "years": "August 2015 - April 2018",
+        "description": "Working with advanced classified computer and communication systems. Programing routers, switches and communication systems in Linux and UNIX. The role required creativity and fast problem solving in real time."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Java",
+        "level": "70%"
+      },
+      {
+        "name": "C",
+        "level": "55%"
+      },
+      {
+        "name": "C#",
+        "level": "50%"
+      },
+      {
+        "name": "Web (HTML, CSS, JavaScript)",
+        "level": "75%"
+      },
+      {
+        "name": "ReactJS",
+        "level": "70%"
+      },
+      {
+        "name": "Python",
+        "level": "70%"
+      },
+      {
+        "name": "SQL",
+        "level": "60%"
+      }
+    ]
+  },
+
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Ripple Game",
+        "category": "A fun little game made with React.",
+        "image": "ripple-game.jpg",
+        "url": "https://omer-sadeh.github.io/RippleGame/"
+      },
+      {
+        "title": "Personal Portfolio Site",
+        "category": "A portfolio site I made with React and JS.",
+        "image": "personal-site.jpg",
+        "url": "https://omer-sadeh.github.io/Personal-Site/"
+      }
+    ]
+  }
+  
+}
