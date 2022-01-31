@@ -3,10 +3,15 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { BsFillArrowDownCircleFill } from 'react-icons/bs';
 import { MdMenu, MdMenuOpen } from 'react-icons/md';
 import ResponsiveMenu from 'react-responsive-navbar';
-import Typical from 'react-typical';
 
 class Header extends Component {
   render() {
+
+
+   /* <Typical steps={['React', 1000, 'Java', 1000, 'HTML', 1000, 'CSS', 1000, 'JavaScript', 1000, 'Python', 1000, 'C', 1000]} loop={Infinity} wrapper="b" /> */
+
+
+
 
     if(this.props.data){
       var name = this.props.data.name;
@@ -48,7 +53,7 @@ class Header extends Component {
          <div className="banner-text">
             <h1 className="responsive-headline"><b>I'mצצ {name}</b></h1>
             <h3>I'm a {city} based <span>{occupation}</span>. My skills includes:
-            <br /><Typical steps={['React', 1000, 'Java', 1000, 'HTML', 1000, 'CSS', 1000, 'JavaScript', 1000, 'Python', 1000, 'C', 1000]} loop={Infinity} wrapper="b" /></h3>
+            <br /></h3>
             <hr />
             <ul className="social">
                <li key="github"><a href="https://github.com/Omer-Sadeh" target="_blank" rel="noopener"><FaGithub /></a></li>
