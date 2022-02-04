@@ -95,8 +95,8 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Ripple Game",
-        "category": "A fun little game made with React.",
+        "title": "Android Ripple Game",
+        "category": "A fun little android game made with React.",
         "image": "ripple-game.jpg",
         "url": "https://github.com/Omer-Sadeh/RippleGame"
       },
