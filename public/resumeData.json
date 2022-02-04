@@ -105,6 +105,12 @@
         "category": "A portfolio site I made with React and JS.",
         "image": "personal-site.JPG",
         "url": "https://omer-sadeh.com/"
+      },
+      {
+        "title": "Wordle Clone - React - WIP",
+        "category": "A Wordle clone made with React. Still work in progress",
+        "image": "wordle-react.JPG",
+        "url": "https://github.com/Omer-Sadeh/wordle-clone"
       }
     ]
   }
