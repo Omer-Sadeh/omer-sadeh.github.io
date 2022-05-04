@@ -35,7 +35,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-						   <label htmlFor="contactSubject">Subject</label>
+						   <label htmlFor="contactSubject">Subject <span className="required">*</span></label>
 						   <input type="text" defaultValue="" size="35" id="contactSubject" name="subject" required/>
                   </div>
 

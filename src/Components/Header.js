@@ -35,7 +35,6 @@ class Header extends Component {
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
-	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
             <li><a className="smoothscroll" href="#portfolio">Works</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
          </ul>
@@ -72,6 +71,8 @@ class Header extends Component {
                <Typing.Backspace count={9} delay={700} />
                <span><b>SQL</b></span>
                <Typing.Backspace count={6} delay={700} />
+               <span><b>Kafka</b></span>
+               <Typing.Backspace count={8} delay={700} />
             </Typing>
             </h3>
             <hr />
